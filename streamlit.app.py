@@ -1,3 +1,3 @@
-import streamlist
+#import streamlist
 
-streamlit.totle('My Parents New Healthy Diner')
+#streamlit.totle('My Parents New Healthy Diner')
