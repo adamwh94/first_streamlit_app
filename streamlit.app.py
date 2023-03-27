@@ -58,7 +58,7 @@ except URLerror as e:
 
 #streamlit.text(fruityvice_response.json())
 
-streamlit.stop()
+
 
 streamlit.header("The fruit load list contains:")
 
@@ -72,6 +72,7 @@ if streamlit.button('Get fruit load list'):
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
 
+  streamlit.stop()
 
 #my_cur = my_cnx.cursor()
 #my_cur.execute("insert into fruit_load_list values ('from streamlit')")
